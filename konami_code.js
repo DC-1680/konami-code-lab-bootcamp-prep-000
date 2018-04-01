@@ -6,10 +6,10 @@ function init(e) {
 
   let index = 0;
 
-  if (key === alphabet[index]) {
+  if (key === code[index]) {
     index++;
 
-    if (index === alphabet.length) {
+    if (index === code.length) {
       alert("Hurray!");
 
       index = 0;
